@@ -29,38 +29,59 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+##Brief project description.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### Premium Partners
+## Installation
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   
+2. Navigate into the project directory:
+    ```bash
+    cd your-repo
+    
+3. Install dependencies:
+    ```bash
+    composer install
+    
+4. Install NPM dependencies
+      ```bash
+      npm install
 
-## Contributing
+5. Set up your environment variables:
+   1. Copy the .env.example file and rename it to .env.
+   2. Update the necessary environment variables like database configuration.
+   3. Setup Mailtrap Smpt settings in the `.env` file:
+         `bash MAIL_MAILER=smtp MAIL_HOST=smtp.mailtrap.io MAIL_PORT=2525 MAIL_USERNAME=your-mailtrap-username MAIL_PASSWORD=your-mailtrap- 
+             password MAIL_ENCRYPTION=tls MAIL_FROM_ADDRESS=your-email@example.com MAIL_FROM_NAME="${APP_NAME}"`
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+6. Generate application key:
+        `bash
+        php artisan key:generate`
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+7. Run database migrations and seed (if applicable):
+        `bash
+        php artisan migrate --seed`
+##Usage
+1. Start the development server:
+        `bash
+        php artisan serve`
 
-## Security Vulnerabilities
+2. Access the application in your web browser at http://localhost:8000.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+##Contributing
+Contributions are welcome! Please follow these steps:
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Fork the project.
+Create your feature branch (git checkout -b feature/YourFeature).
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a pull request.
