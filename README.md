@@ -95,17 +95,9 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 3. Access the application in your web browser at http://localhost:8000.
 
  
-## Bootstrap (optional)
-If you want to include Bootstrap via CDN, you can add the following links to your HTML files:
 
-```html
-<!-- Bootstrap CSS -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-##Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
