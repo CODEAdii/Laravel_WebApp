@@ -78,7 +78,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 6. Generate application key:
    
         ```bash
-        php artisan key:generate`
+        php artisan key:generate
 
 8. Run database migrations and seed (if applicable):
        ```bash
