@@ -8,7 +8,7 @@
 </p>
 
 # Table of Contents
-- [About Laravel](#about laravel)
+- [AboutLaravel](#aboutlaravel)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
