@@ -23,34 +23,34 @@ Brief project description.
     composer install
     
 4. Install NPM dependencies
-  ```bash
-  npm install
+      ```bash
+      npm install
 
 5. Set up your environment variables:
    1. Copy the .env.example file and rename it to .env.
    2. Update the necessary environment variables like database configuration.
    3. Setup Mailtrap Smpt settings in the `.env` file:
-      ```bash
-        MAIL_MAILER=smtp
-        MAIL_HOST=smtp.mailtrap.io
-        MAIL_PORT=2525
-        MAIL_USERNAME=your-mailtrap-username
-        MAIL_PASSWORD=your-mailtrap-password
-        MAIL_ENCRYPTION=tls
-        MAIL_FROM_ADDRESS=your-email@example.com
-        MAIL_FROM_NAME="${APP_NAME}"
+          ```bash
+            MAIL_MAILER=smtp
+            MAIL_HOST=smtp.mailtrap.io
+            MAIL_PORT=2525
+            MAIL_USERNAME=your-mailtrap-username
+            MAIL_PASSWORD=your-mailtrap-password
+            MAIL_ENCRYPTION=tls
+            MAIL_FROM_ADDRESS=your-email@example.com
+            MAIL_FROM_NAME="${APP_NAME}"
 
 6. Generate application key:
-    ```bash
-    php artisan key:generate
+        ```bash
+        php artisan key:generate
 
 7. Run database migrations and seed (if applicable):
-    ```bash
-    php artisan migrate --seed
+        ```bash
+        php artisan migrate --seed
 ##Usage
 1. Start the development server:
-    ```bash
-    php artisan serve
+        ```bash
+        php artisan serve
 
 2. Access the application in your web browser at http://localhost:8000.
 
