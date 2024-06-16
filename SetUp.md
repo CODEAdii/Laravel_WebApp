@@ -30,15 +30,8 @@ Brief project description.
    1. Copy the .env.example file and rename it to .env.
    2. Update the necessary environment variables like database configuration.
    3. Setup Mailtrap Smpt settings in the `.env` file:
-          ```bash
-            MAIL_MAILER=smtp
-            MAIL_HOST=smtp.mailtrap.io
-            MAIL_PORT=2525
-            MAIL_USERNAME=your-mailtrap-username
-            MAIL_PASSWORD=your-mailtrap-password
-            MAIL_ENCRYPTION=tls
-            MAIL_FROM_ADDRESS=your-email@example.com
-            MAIL_FROM_NAME="${APP_NAME}"
+         `bash MAIL_MAILER=smtp MAIL_HOST=smtp.mailtrap.io MAIL_PORT=2525 MAIL_USERNAME=your-mailtrap-username MAIL_PASSWORD=your-mailtrap-password MAIL_ENCRYPTION=tls MAIL_FROM_ADDRESS=your-email@example.com MAIL_FROM_NAME="${APP_NAME}"
+
 
 6. Generate application key:
         ```bash
