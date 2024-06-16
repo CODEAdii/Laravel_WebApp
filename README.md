@@ -81,14 +81,18 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
         php artisan key:generate
 
 8. Run database migrations and seed (if applicable):
+   
        ```bash
         php artisan migrate --seed
+   
 ##Usage
+
 1. Start the development server:
+   
         ```bash
         php artisan serve
 
-2. Access the application in your web browser at http://localhost:8000.
+3. Access the application in your web browser at http://localhost:8000.
 
 ##Contributing
 Contributions are welcome! Please follow these steps:
