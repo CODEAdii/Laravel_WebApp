@@ -9,6 +9,7 @@
 
 # Table of Contents
 - [AboutLaravel](#aboutlaravel)
+- [Learning Laravel](#learninglaravel)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
